@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Data Deletion Instructions — Gunimals</title>
+<style>
+  :root{
+    --ink:#16181d;
+    --ink-soft:#4a4f5c;
+    --rule:#e2e4ea;
+    --accent:#2f4a8f;
+    --paper:#fdfdfe;
+    --panel:#f4f5f8;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:47rem;margin:0 auto;padding:3.5rem 1.5rem 5rem}
+  .eyebrow{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 .6rem}
+  h1{font:600 2.1rem/1.2 Georgia,"Times New Roman",serif;margin:0 0 1.6rem;letter-spacing:-.01em}
+  h2{font:600 1.18rem/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;margin:2.6rem 0 .7rem;padding-top:1.4rem;border-top:1px solid var(--rule)}
+  h3{font-size:1rem;margin:1.5rem 0 .4rem}
+  p,li{color:var(--ink-soft)}
+  p{margin:0 0 1rem}
+  ul,ol{margin:0 0 1rem;padding-left:1.2rem}
+  li{margin-bottom:.5rem}
+  a{color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .meta{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:1.1rem 1.3rem;margin:0 0 2rem}
+  .meta dl{display:grid;grid-template-columns:9.5rem 1fr;gap:.5rem 1rem;margin:0;font-size:.9rem}
+  .meta dt{font-weight:600;color:var(--ink)}
+  .meta dd{margin:0;color:var(--ink-soft)}
+  .steps{counter-reset:s;list-style:none;padding:0;margin:1.2rem 0}
+  .steps li{
+    counter-increment:s;position:relative;padding-left:2.6rem;margin-bottom:1.1rem
+  }
+  .steps li::before{
+    content:counter(s);position:absolute;left:0;top:.05rem;
+    width:1.75rem;height:1.75rem;border-radius:50%;
+    background:var(--accent);color:#fff;
+    font-size:.82rem;font-weight:600;
+    display:flex;align-items:center;justify-content:center
+  }
+  .email-box{
+    background:var(--panel);border:1px solid var(--rule);border-radius:8px;
+    padding:1rem 1.2rem;margin:1.2rem 0;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.88rem;
+    color:var(--ink);white-space:pre-wrap;line-height:1.6
+  }
+  .callout{border-left:3px solid var(--accent);background:var(--panel);padding:.9rem 1.1rem;margin:1.4rem 0;border-radius:0 6px 6px 0}
+  .callout p:last-child{margin-bottom:0}
+  .partners{width:100%;border-collapse:collapse;margin:1.3rem 0;font-size:.92rem}
+  .partners th{
+    text-align:left;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-soft);font-weight:600;padding:0 0 .55rem;border-bottom:1px solid var(--rule)
+  }
+  .partners td{padding:.85rem .9rem .85rem 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--ink-soft)}
+  .partners td:first-child{width:11rem;color:var(--ink)}
+  .partners .sub{font-weight:400;font-size:.82rem;color:var(--ink-soft)}
+  @media (max-width:560px){
+    .partners,.partners tbody,.partners tr,.partners td{display:block;width:auto}
+    .partners thead{display:none}
+    .partners tr{border-bottom:1px solid var(--rule);padding:.9rem 0}
+    .partners td{border:0;padding:.1rem 0}
+    .partners td:first-child{width:auto;margin-bottom:.3rem}
+  }
+  footer{margin-top:3.5rem;padding-top:1.4rem;border-top:1px solid var(--rule);font-size:.85rem;color:var(--ink-soft)}
+  @media (max-width:520px){
+    .wrap{padding:2.2rem 1.1rem 3.5rem}
+    h1{font-size:1.6rem}
+    .meta dl{grid-template-columns:1fr;gap:.15rem}
+    .meta dt{margin-top:.55rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="eyebrow">Legal</p>
+<h1>User Data Deletion Instructions</h1>
+
+<div class="meta">
+  <dl>
+    <dt>Applies to</dt>
+    <dd>Gunimals, published by Karen Gyurjyan</dd>
+    <dt>Request address</dt>
+    <dd><a href="mailto:gyurjyankaren1986@gmail.com">gyurjyankaren1986@gmail.com</a></dd>
+    <dt>Response time</dt>
+    <dd>Within 30 days of your request</dd>
+    <dt>Effective date</dt>
+    <dd>9 August 2026</dd>
+  </dl>
+</div>
+
+<p>This page explains how to request deletion of the data associated with you in any game or application published by Karen Gyurjyan. There is no charge for making a request, and we will not ask you to justify it.</p>
+
+<h2>What data we hold</h2>
+<p>Our games do not require an account, so we do not hold your name, email address, or payment details unless you have written to us directly. The data linked to you consists of:</p>
+<ul>
+  <li>Your device advertising identifier (GAID on Android, IDFA on iOS)</li>
+  <li>Device and technical information, such as model, operating system version, language, and country</li>
+  <li>Gameplay and usage events, such as levels started and completed</li>
+  <li>Advertising interaction and attribution data</li>
+  <li>Crash and diagnostic reports</li>
+</ul>
+<p>This data is processed by us and by the third-party service providers named in our <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>How to request deletion</h2>
+
+<ol class="steps">
+  <li>
+    <strong>Find your advertising identifier.</strong> This helps us locate your data. It is optional — if you cannot find it, send your request anyway and we will work from the other details you provide.
+    <ul>
+      <li><strong>Android:</strong> open <em>Settings &rarr; Google &rarr; All services &rarr; Ads</em>. Your advertising ID is shown on that screen.</li>
+      <li><strong>iOS:</strong> Apple does not display the IDFA in settings. Skip this step and tell us your device model and the approximate date you last played instead.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Send us an email.</strong> Write to <a href="mailto:gyurjyankaren1986@gmail.com?subject=Data%20Deletion%20Request">gyurjyankaren1986@gmail.com</a> using the subject line <strong>Data Deletion Request</strong>.
+  </li>
+  <li>
+    <strong>Include these details</strong> so we can identify the right records:
+    <div class="email-box">Subject: Data Deletion Request
+
+Game name:
+Platform (Android / iOS):
+Device model:
+Advertising ID (if available):
+Approximate date last played:</div>
+  </li>
+  <li>
+    <strong>We confirm receipt.</strong> We reply to acknowledge your request, usually within a few working days.
+  </li>
+  <li>
+    <strong>We delete the data.</strong> We erase the records we hold and instruct our third-party service providers to do the same. We email you once this is finished, normally within 30 days of your original request.
+  </li>
+</ol>
+
+<div class="callout">
+  <p>If a request is unusually complex, we may need up to a further 60 days. If that happens we will tell you before the first 30 days are up, and explain why.</p>
+</div>
+
+<h2>Requesting deletion from our partners directly</h2>
+<p>Some of the companies listed in our <a href="privacy.html">Privacy Policy</a> act as <strong>independent data controllers</strong>. They decide how they use the data they collect, and we cannot delete their copy on your behalf. When you send us a request we will instruct them to delete your data, but you may also contact them yourself using the details below.</p>
+
+<table class="partners">
+  <thead>
+    <tr><th>Partner</th><th>Contact</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>GameAnalytics</strong></td>
+      <td><a href="mailto:privacy@gameanalytics.com">privacy@gameanalytics.com</a><br>
+      <a href="https://gameanalytics.com/privacy/#6-changing-or-deleting-your-information" rel="noopener">Deletion section of their privacy policy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Meta (Facebook)</strong></td>
+      <td>No email address published &mdash; requests are made through their policy pages<br>
+      <a href="https://www.facebook.com/policy.php" rel="noopener">Meta privacy policy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Adjust</strong></td>
+      <td><a href="mailto:privacy@adjust.com">privacy@adjust.com</a><br>
+      <a href="https://www.adjust.com/terms/privacy-policy/" rel="noopener">Adjust privacy policy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Voodoo</strong></td>
+      <td>Voodoo states that it does not collect your personal data, and only provides the SDK package that retrieves data collected by the partners above. You can still contact them to request deletion of their access to those partners' interfaces.<br>
+      <a href="mailto:dpo@voodoo.io">dpo@voodoo.io</a></td>
+    </tr>
+    <tr>
+      <td><strong>Google</strong><br><span class="sub">Firebase Analytics &amp; Crashlytics</span></td>
+      <td><a href="https://myactivity.google.com/" rel="noopener">Manage and delete your Google activity</a><br>
+      <a href="https://policies.google.com/privacy" rel="noopener">Google privacy policy</a></td>
+    </tr>
+    <tr>
+      <td><strong>AppLovin</strong></td>
+      <td><a href="mailto:privacy@applovin.com">privacy@applovin.com</a><br>
+      <a href="https://www.applovin.com/privacy/" rel="noopener">AppLovin privacy policy</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Deleting data yourself</h2>
+<p>You can take these steps at any time without contacting us:</p>
+
+<h3>Reset or delete your advertising identifier</h3>
+<ul>
+  <li><strong>Android:</strong> <em>Settings &rarr; Google &rarr; All services &rarr; Ads &rarr; Delete advertising ID</em>. This breaks the link between your device and any advertising profile built from it.</li>
+  <li><strong>iOS:</strong> <em>Settings &rarr; Privacy &amp; Security &rarr; Tracking</em>, then turn off &ldquo;Allow Apps to Request to Track&rdquo;. This stops apps from accessing your IDFA.</li>
+</ul>
+
+<h3>Uninstall the game</h3>
+<p>Removing the game from your device deletes all local data, including your saved progress and settings. Local progress cannot be recovered after uninstalling.</p>
+
+<h2>Data we may need to keep</h2>
+<p>In limited cases we may retain a minimal record after deletion, where the law requires it — for example, records relating to a purchase that we must keep for tax or accounting purposes, or information needed to detect and prevent fraud. We keep only what is necessary, and we will tell you if this applies to your request.</p>
+
+<h2>Requests made through Facebook Login</h2>
+<p>If you signed in to one of our games using Facebook, you can also remove our app's access from Facebook directly: open <em>Settings &amp; Privacy &rarr; Settings &rarr; Apps and Websites</em> on Facebook, select the app, and remove it. Removing access stops future data sharing. To have data already collected erased, please still send us a deletion request using the steps above.</p>
+
+<h2>Questions</h2>
+<p>If anything on this page is unclear, or you want to check the status of a request you have already sent, email <a href="mailto:gyurjyankaren1986@gmail.com">gyurjyankaren1986@gmail.com</a>.</p>
+
+<footer>
+  <p><a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms &amp; Conditions</a></p>
+</footer>
+
+</div>
+</body>
+</html>
